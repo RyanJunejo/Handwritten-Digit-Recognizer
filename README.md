@@ -1,2 +1,1 @@
-# LatexConverter
-Handwritten to Latex ML Project
+Predicts what digit a 28x28 pixel image is
