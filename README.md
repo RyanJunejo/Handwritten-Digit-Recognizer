@@ -11,6 +11,8 @@ This repository contains a handwritten digit recognizer built using TensorFlow. 
   
 - **MNIST Dataset:** The model is trained on the MNIST dataset, which consists of 28x28 grayscale images of handwritten digits.
 
-- **Convolutional Neural Network (CNN):** The architecture employs a CNN to effectively capture spatial hierarchies in the input images, enhancing the recognition accuracy.
+- **Data Preprocessing:** The input data is normalized to enhance the training process.
+  
+- **Neural Network Architecture:** The model architecture includes flattening the 2D input into a 1D layer, followed by densely connected layers and a softmax output layer.
 
-- **Accuracy and Performance:** The model's performance is evaluated in terms of accuracy and computational efficiency to ensure practical usability.
+- **Load and Evaluate:** The code includes loading a pre-trained model, evaluating its performance on test data, and making predictions on user-provided digit images.
